@@ -1,0 +1,39 @@
+{
+    "name": "GetingOverNothing",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "darts": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "animation": "*",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "pxt-raycasting": "github:aqeeaqee/pxt-raycasting#v0.3.15",
+        "arcade-background-scroll": "github:microsoft/arcade-background-scroll#6cfbf925b9a4d5ddf3e1078e6cf6ca6a1aebb301"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.10.36",
+        "tag": "v1.10.36",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/3a5a7e13703edf0412c17bdb9b1469e282a5b31b",
+        "target": "1.10.36",
+        "pxt": "8.3.9",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
